@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.main-bg {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("/img/BackgroundImg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.menu-icon {
+  width: 18px;
+}
+.uber-logo {
+  margin-left: 30px;
+}
+.nav {
+  display: flex;
+  padding: 1% 3%;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(247, 198, 17, 255);
+  z-index: 1;
+}
+.contact-logo {
+  width: 16px;
+}
+#login {
+  background-color: white;
+  color: black;
+}
+#sign-up {
+  background-color: black;
+  color: white;
+}
+#sign-up,
+#login {
+  padding: 14px;
+  border-radius: 30px;
+  font-size: 15px;
+  margin: 8px;
+  border: none;
+  cursor: pointer;
+}
+.buttons {
+  margin-right: 50px;
+}
+.h1-head {
+  padding: 25px;
+}
+.middle-div {
+  margin-top: 85px;
+  width: 1050px;
+}
+.middle-h1 {
+  margin: 50px;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.middle-barbutton-div {
+  display: flex;
+}
+.search-div {
+  margin: 40px;
+  margin-top: -10px;
+}
+.search-bar {
+  width: 320px;
+  padding: 20px 220px 20px 50px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-image: url("/img/location\ icon.png");
+  background-repeat: no-repeat;
+  background-position: left 10px center;
+  background-size: 20px auto;
+}
+.select-div {
+  margin-left: -31px;
+  margin-top: -12px;
+}
+
+#deliver {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  font-size: 15px;
+  margin: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+.food-button {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 3px;
+  border: none;
+  cursor: pointer;
+}
+.sign-a,
+.sign-next {
+  display: inline;
+  margin: 5px;
+  font-size: large;
+  font-weight: 300;
+}
+.sign-a {
+  text-decoration: underline;
+  color: black;
+  margin-left: 45px;
+  font-weight: 600;
+}
+.sign-next {
+  margin: 10px;
+  font-weight: 600;
+}
+
+.row {
+  margin-top: 80px;
+  display: flex;
+}
+#centerr-div {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.feed {
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.feed-a {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: larger;
+  font-weight: 700;
+}
+#bottomm-div {
+  padding-right: 30px;
+}
+.country-uber {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 20px;
+  margin-left: 40px;
+}
+.grid-before {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+}
+.view {
+  margin-right: 50px;
+  color: black;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 600;
+}
+
+.grid-container {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.flex-item-left {
+  flex: 50%;
+}
+.appstore-div {
+  margin-top: 130px;
+  cursor: pointer;
+}
+
+.googleplay {
+  width: 130px;
+}
+.flex-item-right {
+  flex: 50%;
+}
+.list-ul {
+  list-style: none;
+  line-height: 35px;
+  cursor: pointer;
+}
+.list-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.left-wing {
+  flex: 50%;
+}
+.right-wing {
+  flex: 50%;
+}
+.footer-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-left-side img {
+  flex: 50%;
+  display: inline-block;
+  width: 18px;
+  margin-top: 60px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.footer-right-side {
+  flex: 50%;
+}
+.first-line {
+  margin-top: 70px;
+  margin-left: 570px;
+  cursor: pointer;
+}
+.second-line {
+  margin-top: 30px;
+  margin-left: 295px;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
