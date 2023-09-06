@@ -6,7 +6,7 @@
 .main-bg {
   min-height: 100vh;
   width: 100%;
-  background-image: url("/img/BackgroundImg.webp");
+  background-image: url("img/BackgroundImg.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,7 +79,7 @@
   padding: 20px 220px 20px 50px;
   border: 1px solid #ccc;
   font-size: 16px;
-  background-image: url("/img/location\ icon.png");
+  background-image: url("img/location\ icon.png");
   background-repeat: no-repeat;
   background-position: left 10px center;
   background-size: 20px auto;
